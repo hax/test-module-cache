@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "test-module-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "bootstrap": "npm install && lerna bootstrap",
+    "publish": "lerna publish",
+    "create-tests": "test/init.sh",
+    "test": "test/run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hax/test-module-cache.git"
+  },
+  "author": "hax <johnhax@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hax/test-module-cache/issues"
+  },
+  "homepage": "https://github.com/hax/test-module-cache#readme",
+  "devDependencies": {
+    "lerna": "^1.1.2"
+  }
+}
