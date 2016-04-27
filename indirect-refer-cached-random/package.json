@@ -1,0 +1,13 @@
+{
+  "name": "indirect-refer-cached-random",
+  "version": "0.1.0",
+  "description": "For test only",
+  "main": "index.js",
+  "author": "hax <johnhax@gmail.com>",
+  "repository": "hax/test-module-cache",
+  "license": "ISC",
+  "dependencies": {
+    "refer-cached-random-1": "^0.1.0",
+    "refer-cached-random-2": "^0.1.0"
+  }
+}

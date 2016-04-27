@@ -1,0 +1,9 @@
+{
+  "name": "cached-random",
+  "version": "1.0.0",
+  "description": "module.exports = Math.random()",
+  "main": "index.js",
+  "author": "hax <johnhax@gmail.com>",
+  "repository": "hax/test-module-cache",
+  "license": "ISC"
+}
